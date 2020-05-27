@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company.Main</OriginalElement>
+  <nodes>
+    <node x="716.0" y="0.0">general.HumanBeing</node>
+    <node x="0.0" y="809.0">commands.Insert</node>
+    <node x="296.0" y="809.0">commands.Update</node>
+    <node x="0.0" y="0.0">general.GeneralCollection</node>
+    <node x="592.0" y="809.0">commands.RemoveAnyByMood</node>
+    <node x="0.0" y="907.0">general.Coordinates</node>
+    <node x="730.0" y="907.0">com.company.Main</node>
+    <node x="2072.0" y="809.0">commands.Clear</node>
+    <node x="2220.0" y="646.0">commands.CommandDo</node>
+    <node x="4144.0" y="809.0">commands.RemoveKey</node>
+    <node x="388.25" y="103.0">java.lang.Enum</node>
+    <node x="405.75" y="468.0">general.WeaponType</node>
+    <node x="2664.0" y="809.0">commands.ExecuteScript</node>
+    <node x="888.0" y="809.0">commands.CountByWeaponType</node>
+    <node x="1184.0" y="809.0">commands.Help</node>
+    <node x="543.75" y="468.0">general.Mood</node>
+    <node x="4440.0" y="809.0">commands.Save</node>
+    <node x="3848.0" y="809.0">commands.Show</node>
+    <node x="1776.0" y="809.0">commands.Info</node>
+    <node x="2960.0" y="809.0">commands.RemoveLowerKey</node>
+    <node x="2368.0" y="809.0">commands.RemoveLower</node>
+    <node x="539.0" y="12.0">java.io.Serializable</node>
+    <node x="194.0" y="907.0">commands.CommandPusk</node>
+    <node x="1480.0" y="809.0">commands.SumOfImpactSpeed</node>
+    <node x="3256.0" y="809.0">commands.Exit</node>
+    <node x="364.0" y="0.0">java.lang.Comparable</node>
+    <node x="3552.0" y="809.0">commands.History</node>
+    <node x="536.0" y="907.0">general.Car</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="general.WeaponType" target="java.lang.Enum">
+      <point x="0.0" y="-14.5" />
+      <point x="464.75" y="443.0" />
+      <point x="455.75" y="443.0" />
+      <point x="-67.5" y="157.5" />
+    </edge>
+    <edge source="commands.ExecuteScript" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="2802.0" y="779.0" />
+      <point x="2383.875" y="779.0" />
+      <point x="25.875" y="26.5" />
+    </edge>
+    <edge source="commands.RemoveLower" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="2506.0" y="789.0" />
+      <point x="2366.625" y="789.0" />
+      <point x="8.625" y="26.5" />
+    </edge>
+    <edge source="commands.SumOfImpactSpeed" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="1618.0" y="769.0" />
+      <point x="2314.875" y="769.0" />
+      <point x="-43.125" y="26.5" />
+    </edge>
+    <edge source="commands.RemoveLowerKey" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="3098.0" y="769.0" />
+      <point x="2401.125" y="769.0" />
+      <point x="43.125" y="26.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="-67.5" y="-157.5" />
+      <point x="455.75" y="78.0" />
+      <point x="441.5" y="78.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="commands.Insert" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="138.0" y="719.0" />
+      <point x="2228.625" y="719.0" />
+      <point x="-129.375" y="26.5" />
+    </edge>
+    <edge source="commands.RemoveAnyByMood" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="730.0" y="739.0" />
+      <point x="2263.125" y="739.0" />
+      <point x="-94.875" y="26.5" />
+    </edge>
+    <edge source="commands.Info" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="1914.0" y="779.0" />
+      <point x="2332.125" y="779.0" />
+      <point x="-25.875" y="26.5" />
+    </edge>
+    <edge source="commands.Help" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="1322.0" y="759.0" />
+      <point x="2297.625" y="759.0" />
+      <point x="-60.375" y="26.5" />
+    </edge>
+    <edge source="general.Mood" target="java.lang.Enum">
+      <point x="0.0" y="-14.5" />
+      <point x="581.75" y="443.0" />
+      <point x="590.75" y="443.0" />
+      <point x="67.5" y="157.5" />
+    </edge>
+    <edge source="commands.Exit" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="3394.0" y="759.0" />
+      <point x="2418.375" y="759.0" />
+      <point x="60.375" y="26.5" />
+    </edge>
+    <edge source="commands.Clear" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="2210.0" y="789.0" />
+      <point x="2349.375" y="789.0" />
+      <point x="-8.625" y="26.5" />
+    </edge>
+    <edge source="commands.CountByWeaponType" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="1026.0" y="749.0" />
+      <point x="2280.375" y="749.0" />
+      <point x="-77.625" y="26.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="67.5" y="-157.5" />
+      <point x="590.75" y="78.0" />
+      <point x="605.0" y="78.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="commands.Save" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="4578.0" y="719.0" />
+      <point x="2487.375" y="719.0" />
+      <point x="129.375" y="26.5" />
+    </edge>
+    <edge source="commands.Show" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="3986.0" y="739.0" />
+      <point x="2452.875" y="739.0" />
+      <point x="94.875" y="26.5" />
+    </edge>
+    <edge source="commands.RemoveKey" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="4282.0" y="729.0" />
+      <point x="2470.125" y="729.0" />
+      <point x="112.125" y="26.5" />
+    </edge>
+    <edge source="commands.Update" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="434.0" y="729.0" />
+      <point x="2245.875" y="729.0" />
+      <point x="-112.125" y="26.5" />
+    </edge>
+    <edge source="commands.History" target="commands.CommandDo">
+      <point x="0.0" y="-26.5" />
+      <point x="3690.0" y="749.0" />
+      <point x="2435.625" y="749.0" />
+      <point x="77.625" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.20734797297297294" x="2358.0000000000005" y="512.0" />
+  <SelectedNodes>
+    <node>com.company.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
