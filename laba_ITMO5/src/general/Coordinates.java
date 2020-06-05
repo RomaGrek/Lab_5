@@ -6,15 +6,15 @@ package general;
 
 public class Coordinates {
     /**Поле для координаты x*/
-    private float x;
+    private Integer x;
     /**Поле для координаты y*/
-    private Integer y;       //Поле не может быть null
+    private Long y;
     /**
      * Конструктор с координатами x и y
      * @param x X
      * @param y Y
      */
-    public Coordinates(float x, Integer y) {
+    public Coordinates(Integer x, Long y) {
         this.x = x;
         this.y = y;
     }
@@ -22,28 +22,28 @@ public class Coordinates {
      * Геттер x
      * @return поле x
      */
-    public Float getX() {
+    public Integer getX() {
         return x;
     }
     /**
      * Геттер  y
      * @return поле y
      */
-    public Integer getY() {
+    public Long getY() {
         return y;
     }
     /**
      * Сеттер для x
      * @param x x
      */
-    public void setX(Float x) {
+    public void setX(Integer x) {
         this.x = x;
     }
     /**
      * Сеттер для y
      * @param y y
      */
-    public void setY(Integer y) {
+    public void setY(Long y) {
         this.y = y;
     }
     /**

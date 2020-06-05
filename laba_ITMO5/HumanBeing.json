@@ -3,7 +3,7 @@
     "id": 12,
     "name": "Санек",
     "coordinates": {
-      "x": 43.23,
+      "x": 43,
       "y": 27
     },
     "creationDate": {
@@ -32,7 +32,7 @@
     "id": 49,
     "name": "Ромчик",
     "coordinates": {
-      "x": 12.43,
+      "x": 12,
       "y": 77
     },
     "creationDate": {
@@ -61,7 +61,7 @@
     "id": 78,
     "name": "Тема-Волк",
     "coordinates": {
-      "x": 98.01,
+      "x": 98,
       "y": 33
     },
     "creationDate": {

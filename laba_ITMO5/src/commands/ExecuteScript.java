@@ -24,7 +24,7 @@ public class ExecuteScript implements CommandDo {
     @Override
     public void doing(String name, GeneralCollection generalCollection) {
         try (BufferedReader bufferedReader = new BufferedReader((new FileReader(name)))){
-            CommandPusk.runScripts.add("execute_script" + name);
+            CommandPusk.runScripts.add("execute_script " + name);
             String inpurs = bufferedReader.readLine();
             while (inpurs != null) {
                 if(inpurs.contains("execute_script") && CommandPusk.runScripts.contains(inpurs)) {

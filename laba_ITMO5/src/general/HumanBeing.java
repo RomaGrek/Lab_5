@@ -68,14 +68,14 @@ public class HumanBeing {
      * Геттер x
      * @return x
      */
-    public Float getX() {
+    public Integer getX() {
         return coordinates.getX();
     }
     /**
      * Геттер y
      * @return y
      */
-    public Integer getY() {
+    public Long getY() {
         return coordinates.getY();
     }
 
@@ -114,14 +114,14 @@ public class HumanBeing {
      * Сеттер для x
      * @param x x
      */
-    public void setX(Float x) {
+    public void setX(Integer x) {
         coordinates.setX(x);
     }
     /**
      * Сеттер для y
      * @param y x
      */
-    public void setY(Integer y) {
+    public void setY(Long y) {
         coordinates.setY(y);
     }
     /**

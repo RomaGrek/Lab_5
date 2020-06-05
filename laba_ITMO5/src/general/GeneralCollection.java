@@ -291,22 +291,22 @@ public class GeneralCollection {
      * @return координаты
      */
     public Coordinates scanCoordinates() {
-        Float inputX = null;
-        Integer inputY = null;
+        Integer inputX = null;
+        Long inputY = null;
         while (inputX == null) {
             System.out.println("Введите х координату: ");
             try {
-                inputX = Float.parseFloat(scanLine());
+                inputX = Integer.parseInt(scanLine());
             } catch (NumberFormatException e) {
-                System.out.println("Координата х должна быть числом.");
+                System.out.println("Координата х должна быть целым числом.");
             }
         }
         System.out.println("Введите у координату: ");
         while (inputY == null) {
             try {
-                inputY = Integer.parseInt(scanLine());
+                inputY = Long.parseLong(scanLine());
             } catch (NumberFormatException e) {
-                System.out.println("Координата у должна быть числом.");
+                System.out.println("Координата у должна быть целым числом.");
             }
         }
         Coordinates coordinates = new Coordinates(inputX, inputY);
@@ -352,7 +352,7 @@ public class GeneralCollection {
         while (as) {
             try {
                 ImpactSpeed = Integer.parseInt(scanLine());
-                if (ImpactSpeed <= -354) {
+                if (ImpactSpeed < -354) {
                     System.out.println("Значение скорости должно быть не ниже -354.\nВведите значение скорости: ");
                 } else {
                     as = false;
