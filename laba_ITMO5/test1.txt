@@ -1,3 +1,1 @@
-help
-info
 execute_script test2.txt

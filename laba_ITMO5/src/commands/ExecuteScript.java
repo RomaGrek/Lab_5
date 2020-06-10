@@ -28,7 +28,7 @@ public class ExecuteScript implements CommandDo {
             String inpurs = bufferedReader.readLine();
             while (inpurs != null) {
                 if(inpurs.contains("execute_script") && CommandPusk.runScripts.contains(inpurs)) {
-                    System.out.println(inpurs.split(" ")[1] + " Уже запущен. Команда промущена");
+                    System.out.println(inpurs.split(" ")[1] + " Уже запущен. Команда пропущена");
                 } else {
                     CommandPusk.doing(inpurs, generalCollection);
                 }
