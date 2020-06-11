@@ -27,10 +27,10 @@ public class RemoveLower implements CommandDo {
             if (isis > 0) {
                 generalCollection.removeLower(isis);
             } else {
-                System.out.println("id должен быть положительным числом");
+                System.out.println("id должен быть больше нуля");
             }
         }catch(NumberFormatException e){
-            System.out.println("Id должен быть полным числом");
+            System.out.println("Id должен быть целым числом");
         }
     }
 }

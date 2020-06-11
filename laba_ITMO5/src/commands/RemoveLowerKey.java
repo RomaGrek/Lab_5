@@ -23,7 +23,7 @@ public class RemoveLowerKey implements CommandDo {
             Integer isiq = Integer.parseInt(name);
                 generalCollection.removeLowerKey(isiq);
         }catch(NumberFormatException e){
-            System.out.println("Ключ должен быть полным числом");
+            System.out.println("Ключ должен быть целым числом");
         }
     }
 }

@@ -98,7 +98,7 @@ public class GeneralCollection {
      */
     public void info() {
         System.out.println("Тип: HumanBeing\n"
-                + "Дата инициализации: " + genCollection.get(0).getCreationDate() + '\n'
+                + "Дата инициализации: " + genCollection.get(0).getCreationDate().now() + '\n'
                 + "Количество элементов: " + genCollection.size());
     }
 
@@ -171,7 +171,7 @@ public class GeneralCollection {
             dod = false;
         }
         if (dod) {
-            System.out.println(moodSum);
+            System.out.println("Количество элементов, значение поля weaponType которых равно заданному = " +moodSum);
         }
     }
 
@@ -358,7 +358,7 @@ public class GeneralCollection {
                     as = false;
                 }
             } catch (NumberFormatException e) {
-                System.out.println("Скорость должны быть числом.\nВведите значение скорости: ");
+                System.out.println("Скорость должны быть целым числом.\nВведите значение скорости: ");
             }
         }
         return ImpactSpeed;
